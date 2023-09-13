@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>SHOPPING CART</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center">Shopping Cart</h1>
+    <div class="content container my-3">
+        <div class="controls-input">
+            <input type="text" id="name" placeholder="Enter Item name here" required
+                class="w-75 my-3 border border-none p-2" style="margin-left: 13%;">
+            <br>
+            <input type="number" id="price" placeholder="Enter Item price here" required
+                class="w-75 my-3 border border-none p-2" style="margin-left: 13%;">
+            <br>
+            <input id="add-item" value="Add Item" type="button" class="w-75 my-3 btn btn-success rounded-0"
+                style="margin-left: 13%;">
+        </div><br>
+        <div class="table">̥
+            <table class="item-table" border="40">
+                <thead>
+                    <tr>
+                        <th data-ns-test="item-name">NAME</th>
+                        <th data-ns-test="item-price">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Grand Total</th>
+                        <th id="total">0</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+
+
+    </div>
+    <script src="./main.js">
+    </script>
+</body>
+
+</html>
